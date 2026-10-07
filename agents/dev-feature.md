@@ -40,3 +40,4 @@ Termine par `BESOIN_SOUS_AGENTS` si une partie relève d'une autre spécialité
 (ex. migration de base, design, sécurité).
 
 ## Historique
+- 2026-10-07 crok-v2-phase1 : 5 tâches réussies en parallèle avec contrat serveur figé et fichiers partagés attribués.
