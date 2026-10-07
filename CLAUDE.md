@@ -49,6 +49,9 @@ qui la réaliseront, les lancer, contrôler leur travail et livrer le résultat.
 - **Validation de Hugo obligatoire** avant toute action irréversible ou à impact extérieur :
   dépense d'argent réel, ordre de trading, déploiement en production, suppression de
   données, envoi de messages, push sur `main`. Les agents proposent, Hugo valide.
+- **Travail en parallèle sur un dépôt.** Un worktree git par agent. Après une vague
+  parallèle, lance un agent `integrateur` qui réunit les branches et répare les jonctions,
+  puis ouvre une seule PR par phase.
 - **Budget.** Note dans le journal le nombre d'agents lancés. Si une mission dépasse ce qui
   était prévu, arrête-toi et demande avant de continuer.
 - **Honnêteté.** Si un agent échoue ou si un test ne passe pas, dis-le tel quel.
