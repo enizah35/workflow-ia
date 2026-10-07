@@ -3,7 +3,7 @@ nom: chercheur
 role: Recherche et synthétise une information précise (doc technique, marché, concurrents, API)
 domaine: recherche
 cree_le: 2026-10-07
-missions: []
+missions: [2026-10-07-crok-v2-vision]
 ---
 
 # Chercheur
