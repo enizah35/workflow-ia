@@ -3,7 +3,7 @@ nom: architecte
 role: Transforme une idée ou une fonctionnalité en plan technique court et actionnable
 domaine: dev
 cree_le: 2026-10-07
-missions: []
+missions: [2026-10-07-crok-refondation, 2026-10-07-crok-v2-architecture]
 ---
 
 # Architecte

@@ -66,11 +66,7 @@ Elle mesure à la fois la valeur (on a cuisiné) et le moteur de croissance (les
 ## Mascotte et ton
 Tutoiement, humour, phrases courtes. On célèbre chaque plat terminé, même raté (« Brûlé ? Ça compte quand même »). On ne culpabilise jamais et on ne se moque jamais d'une photo.
 
-Quatre pistes à tester :
-1. **Crok, le croûton** : pote sarcastique qui croit en toi, porte le nom de l'app.
-2. **Poêlo, la poêle coach** : coach ultra-enthousiaste, peut fatiguer.
-3. **Ratou, le raton laveur gourmand** : chapardeur complice, anti-gaspi, facile à décliner.
-4. **Mamie Gratin, la grand-mère cash** : tendre et sans filtre, plus risquée.
+**Décision de Hugo (2026-10-07) : la mascotte est une tomate.** Nom et personnalité à définir, dans le respect des règles de ton ci-dessus.
 
 ## Monétisation (après validation de la rétention)
 Gratuit au MVP. Ensuite : commission des enseignes sur le panier d'ingrédients (modèle de Jow), défis sponsorisés par des marques, et éventuellement un premium léger (défis exclusifs, mascotte personnalisée). Un abonnement payant d'entrée est risqué pour une cible qui compte chaque euro.
@@ -86,17 +82,17 @@ Gratuit au MVP. Ensuite : commission des enseignes sur le panier d'ingrédients 
 3. Série et classement hebdomadaires font revenir. Test : rétention sur 4 semaines en bêta fermée.
 4. L'app est utile en solo. Test : comparer la rétention avec et sans ami invité.
 5. 30 recettes suffisent pour un mois.
-6. La mascotte fait revenir sans agacer. Test : montrer les 4 pistes à une dizaine de personnes.
+6. La mascotte tomate fait revenir sans agacer. Test : montrer des messages de rappel à une dizaine de personnes.
 
 ## Questions au fondateur (défaut proposé)
-1. **Cible au lancement** : étudiants de 18 à 25 ans en France, seuls ou en coloc.
+1. **Cible au lancement** : étudiants de 18 à 25 ans en France, seuls ou en coloc. *Validé par Hugo.*
 2. **Âge minimum** : 18 ans, pour éviter la gestion des mineurs.
-3. **Qui écrit les recettes** : toi, environ 30 recettes au format guidé.
+3. **Qui écrit les recettes** : Hugo, environ 30 recettes au format guidé. *Validé par Hugo.*
 4. **Visibilité des photos** : amis uniquement.
 5. **Photo obligatoire pour valider un plat** : oui pour l'XP et la série ; sans photo, la recette est terminée mais ne compte pas.
 6. **Rythme de la série** : 3 plats par semaine.
 7. **Récompense des compétitions** : rien de matériel (classement, badge, mascotte).
-8. **Mascotte** : tester Crok et Ratou en premier.
+8. **Mascotte** : une tomate. *Décidé par Hugo.*
 9. **Monétisation au MVP** : aucune.
 10. **Lancement** : bêta fermée avec 3 à 5 groupes d'amis.
 
