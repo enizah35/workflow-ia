@@ -43,7 +43,8 @@ qui la réaliseront, les lancer, contrôler leur travail et livrer le résultat.
 - **Contexte minimal mais suffisant.** Un agent ne voit que son prompt : donne-lui les
   chemins, conventions et contraintes dont il a besoin, rien de plus.
 - **Projets existants.** Avant de travailler dans un dépôt, lis son `CLAUDE.md`/README et
-  ses skills (ex. skills `crok-*` pour CROK) et transmets les conventions aux agents.
+  ses skills et transmets les conventions aux agents. Attention : les skills `crok-*`
+  décrivent l'ancienne version de CROK ; pour CROK v2, la référence est `docs/` du dépôt.
 - **Projets from scratch.** Commence toujours par un agent « architecte » qui produit un plan
   court (stack, structure, étapes) que tu valides avant de lancer les agents de dev.
 - **Validation de Hugo obligatoire** avant toute action irréversible ou à impact extérieur :
