@@ -28,12 +28,15 @@
 - BESOIN_SOUS_AGENTS reçu (architecte-luau-roblox, verificateur-conformite-roblox) : reporté, en attente du go de Hugo (règle budget).
 
 - 13:11 : go de Hugo (sans choix d'ordre) → défaut option A (Guard the Museum d'abord). Agents 4 (architecte-luau-roblox) et 5 (verificateur-conformite-roblox) lancés en parallèle, fiches nouvelles.
+- Agent 4 rendu : plan technique (Luau natif strict, Rojo/Lune/ProfileStore/React-lua, 2 places Lobby+Nuit, 29 tâches en 5 phases, 9-10 sem plein temps ou 6 sem périmètre réduit). Contrôlé : structure complète, sources d'outillage datées.
+- Agent 5 rendu : conformité. Label probable Mild → Kids + Select accessibles ; chat limité (pings/messages prédéfinis) ; rediffusion lancée par le joueur et non récompensée ; pas de lien réseau social en jeu ; pas de PNJ IA conversationnel. Aucun bloquant.
 
 ## Résultat livré
 - Rapport : /mnt/project-files/roblox/rapport-jeux-roblox.md (copie dans docs/roblox/).
 - Recommandation : « Guard the Museum » (coop 4 anomalies, pari principal) ; « Catch a Critter » (capture cozy Kids, projet d'apprentissage).
 
 ## Leçons
+- Phase 2 : lancer architecte et conformité en parallèle a marché ; la conformité a produit des contraintes de design (chat, rediffusion) à injecter dans le brief des devs.
 - Fiches : analyste-marche-roblox a bien marché en 2 instances parallèles sur des questions disjointes ; evaluateur-concepts-jeu utile, garder l'étape de vérification des concurrents (elle a fait baisser 2 notes).
 - Le Chef a condensé chaque rapport dans un fichier sources/ avant l'évaluateur : contexte minimal et traçable, à refaire.
 - Les sites de CCU divergent : toujours demander 2 sources et la date.

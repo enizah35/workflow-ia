@@ -36,3 +36,4 @@ qu'un développeur (aidé d'agents IA) peut suivre tâche par tâche.
   phases et tâches ; délai révisé ; risques ; questions pour Hugo.
 
 ## Historique
+- 2026-10-08 roblox-jeux-rentables : livrable complet et sourcé du premier coup.

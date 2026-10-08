@@ -30,3 +30,4 @@ monétisation, publicité, DevEx. Uniquement à partir des sources officielles.
 - Checklist de conformité (règle, source, verdict, action) ; points bloquants ; incertitudes.
 
 ## Historique
+- 2026-10-08 roblox-jeux-rentables : livrable complet et sourcé du premier coup.
