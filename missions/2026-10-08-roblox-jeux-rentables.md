@@ -27,6 +27,8 @@
 - Agent 3 rendu : 9 concepts notés /35, 2 retenus. Contrôle du Chef : calculs de revenus cohérents avec l'étude 1 (0,14 $/DAU/jour de bookings plateforme) ; le Chef inverse l'ordre proposé (pari principal d'abord) car la demande du concept n°2 n'est pas prouvée.
 - BESOIN_SOUS_AGENTS reçu (architecte-luau-roblox, verificateur-conformite-roblox) : reporté, en attente du go de Hugo (règle budget).
 
+- 13:11 : go de Hugo (sans choix d'ordre) → défaut option A (Guard the Museum d'abord). Agents 4 (architecte-luau-roblox) et 5 (verificateur-conformite-roblox) lancés en parallèle, fiches nouvelles.
+
 ## Résultat livré
 - Rapport : /mnt/project-files/roblox/rapport-jeux-roblox.md (copie dans docs/roblox/).
 - Recommandation : « Guard the Museum » (coop 4 anomalies, pari principal) ; « Catch a Critter » (capture cozy Kids, projet d'apprentissage).
@@ -37,5 +39,5 @@
 - Les sites de CCU divergent : toujours demander 2 sources et la date.
 
 ## Compteurs
-- Agents lancés : 3
+- Agents lancés : 5
 - Relances : 0
