@@ -13,17 +13,20 @@
 ## Découpage
 | # | Tâche | Agent | Fiche | Statut |
 |---|-------|-------|-------|--------|
-| P0.1+P0.2 | Squelette, CI, tests Lune, CLAUDE.md | dev-luau-fondations | nouvelle | en cours |
+| P0.1+P0.2 | Squelette, CI, tests Lune, CLAUDE.md | dev-luau-fondations | nouvelle | terminé |
 | P0.3+P0.4 | Studio MCP + greybox aile 1 | Hugo (guide du Chef) | — | guide écrit |
-| P0.5 | Prototype boucle | à créer (dev-luau-prototype) | — | après P0.1 |
+| P0.5 | Prototype boucle | dev-luau-prototype | nouvelle | en cours |
 
 ## Journal
 - Contrainte découverte : le proxy du conteneur bloque les releases GitHub (403) ; crates.io/npm OK.
+
+- P0.1+P0.2 rendus (branche locale agent/p0-fondations, 2 commits). Contrôle du Chef : stylua OK, 16 tests Lune OK, rojo build OK. luau-lsp et selene std roblox n'ont pas tourné (proxy) → à voir en CI.
+- P0.5 lancé sur agent/p0-prototype (depuis agent/p0-fondations), avec carte de secours générée pour tester sans la greybox.
 
 ## Résultat livré
 
 ## Leçons
 
 ## Compteurs
-- Agents lancés : 1
+- Agents lancés : 2
 - Relances : 0
