@@ -40,3 +40,4 @@ fournies par le Chef, proposer des concepts de jeux et les noter de façon argum
 - **Incertitudes**
 
 ## Historique
+- 2026-10-08 roblox-jeux-rentables : notation /35 claire, vérif concurrents utile ; tendance à surpondérer le faible risque face à la preuve de demande — le Chef a arbitré.

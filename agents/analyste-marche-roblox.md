@@ -39,3 +39,4 @@ de marché que le Chef te donne, avec des chiffres récents et sourcés.
 - **Incertitudes**
 
 ## Historique
+- 2026-10-08 roblox-jeux-rentables : 2 instances (économie / genres), rapports sourcés et datés, bon niveau. Garder la consigne « 2 sources par chiffre ».
