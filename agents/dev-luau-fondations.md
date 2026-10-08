@@ -37,3 +37,4 @@ hors de Roblox Studio. Ta seule responsabilité : squelette, outillage, CI, lanc
 - **Points ouverts :** ce qui n'a pas pu être vérifié (ex. Rojo dans Studio)
 
 ## Historique
+- 2026-10-08 guard-the-museum P0.1+P0.2 : livrable complet, vérifs réelles (cargo install stylua/selene/lune/rojo OK ; luau-lsp et API dump selene bloqués par le proxy → CI). Rapport honnête sur ce qui n'a pas tourné.
