@@ -14,17 +14,20 @@
 | # | Tâche | Agent | Fiche | Statut |
 |---|-------|-------|-------|--------|
 | 1 | Économie créateurs Roblox (revenus, DevEx, découvrabilité, coûts) | analyste-marche-roblox | nouvelle | terminé |
-| 2 | Tendances genres et top jeux 2025-2026, niches sous-servies | analyste-marche-roblox | nouvelle (2e instance) | |
-| 3 | Générer et noter les concepts, retenir 2 | evaluateur-concepts-jeu | nouvelle | |
+| 2 | Tendances genres et top jeux 2025-2026, niches sous-servies | analyste-marche-roblox | nouvelle (2e instance) | terminé |
+| 3 | Générer et noter les concepts, retenir 2 | evaluateur-concepts-jeu | nouvelle | en cours |
 
 ## Journal
 - 2026-10-08 : agents 1 et 2 lancés en parallèle.
 - Agent 1 rendu : bon niveau de sourcing (8-K Q2 2026, Creator Hub). Points clés : algo cible la rétention J28 depuis juin 2026, bookings Q3 2026 en baisse prévue, accès <16 ans conditionné, méga-succès = prototypes rapides portés par studios.
+
+- Agent 2 rendu : top 20 daté, hits viraux qui s'effondrent en 2-3 mois, genres durables (survival coop, pêche, horreur asymétrique, anime), niches (adultes 18+, Kids/Select, coop 4 joueurs, 2D). Synthèses dans /mnt/project-files/roblox/sources/.
+- Agent 3 (évaluateur) lancé avec les deux synthèses.
 
 ## Résultat livré
 
 ## Leçons
 
 ## Compteurs
-- Agents lancés : 2
+- Agents lancés : 3
 - Relances : 0
