@@ -13,20 +13,21 @@
 ## Découpage
 | # | Tâche | Agent | Fiche | Statut |
 |---|-------|-------|-------|--------|
-| 1 | Recherche concurrents, ToS, sources audio, briques techniques | chercheur | existante | en cours |
+| 1 | Recherche concurrents, ToS, sources audio, briques techniques | chercheur | existante | livré |
 | 2 | Interview fondateur (questions) | Chef | — | en attente de hugo |
-| 3 | Vision produit | product-vision | existante | à faire |
+| 3 | Vision produit | product-vision | existante | en cours |
 | 4 | Spec + stack + plan technique | architecte | existante | à faire |
 | 5 | Dev par phases | dev-feature + integrateur | existantes | après création du dépôt |
 
 ## Journal
 - 2026-10-12 : chercheur lancé (rapport attendu dans /mnt/project-files/discord-music/recherche-marche-et-legal.md). Questions fondateur posées à hugo.
 - 2026-10-12 : réponses de hugo reçues → /mnt/project-files/discord-music/reponses-fondateur.md (privé d'abord, FR+EN, gratuit ; priorités : fiabilité, playlists, aléatoire par style, paroles synchro, recos, dashboard).
+- 2026-10-12 : recherche livrée (/mnt/project-files/discord-music/recherche-marche-et-legal.md). Agent product-vision lancé. hugo choisit les sources « Hybride » (métadonnées Spotify/Deezer + lecture YouTube, privé uniquement, source isolée).
 
 ## Résultat livré
 
 ## Leçons
 
 ## Compteurs
-- Agents lancés : 1
+- Agents lancés : 2
 - Relances : 0
