@@ -25,11 +25,17 @@
 - 2026-10-12 : recherche livrée (/mnt/project-files/discord-music/recherche-marche-et-legal.md). Agent product-vision lancé. hugo choisit les sources « Hybride » (métadonnées Spotify/Deezer + lecture YouTube, privé uniquement, source isolée).
 - 2026-10-12 : vision livrée (vision.md, noms Platine/Refrain/Ambiance, 7 questions avec défauts). Architecte lancé sans attendre les réponses (défauts appliqués, centralisés dans guild_settings). Plan livré : TS + discord.js 14 + Lavalink 4.2.2 (DAVE) + Postgres/Drizzle, catalogue Deezer principal, 4 phases MVP (4+7+6+5 tâches) + V2. Copie dans docs/discord-music/. En attente : go de hugo + création du dépôt.
 - 2026-10-12 : go de hugo (« commence »), dépôt enizah35/Platine créé par hugo (vide). Commit d'initialisation (README) poussé sur main pour servir de base aux PR. 0.1 échafaudage fait par le Chef (tâche simple) sur agent/phase0-integration. Vague B lancée en worktrees : 0.2 conteneurs + ADR client Lavalink, 0.3 contrats + fakes + schéma. Docker disponible dans le conteneur cloud (dockerd lancé à la main).
+- 2026-10-12 : 0.2, 0.3 livrés et intégrés ; 0.4 interrompu par un redémarrage du conteneur, repris depuis son transcript (fichiers non commités intacts). 0.4 a trouvé un bug d'intégration 0.2×0.3 (copy-migrations.mjs exclu par .dockerignore) et l'a corrigé. PR unique enizah35/Platine#1 (agent/phase0-integration → main), 152 tests verts en local. Non testable dans le cloud : Lavalink (ghcr.io et maven.lavalink.dev bloqués par le proxy), voix DAVE, token Discord → test sur le PC de hugo.
 
 ## Résultat livré
 
 ## Leçons
 
 ## Compteurs
-- Agents lancés : 5
+- Agents lancés : 5 (dont 1 reprise après redémarrage du conteneur)
 - Relances : 0
+
+### Leçons phase 0 (2026-10-12)
+- Demander aux agents de committer en WIP tôt : un redémarrage du conteneur peut couper un agent ; la reprise via son transcript a fonctionné.
+- Les vérifications croisées entre tâches parallèles (ici Docker × migrations) ne sont faites que par l'agent suivant ou l'intégrateur : toujours relancer `docker build` à l'intégration.
+- Dans ce conteneur cloud : `sudo dockerd &` fonctionne ; ghcr.io (couches) et maven.lavalink.dev sont bloqués ; un build Docker avec pnpm demande une image de base contenant le certificat du proxy.
