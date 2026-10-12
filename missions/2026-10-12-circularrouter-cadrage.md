@@ -30,6 +30,8 @@
 - Redémarrage du conteneur : auditeur repris depuis son transcript ; DA perdu, recréé (directeur-artistique-v2) en reprenant l'état partiel (tokens + Instrument Sans).
 - Auditeur terminé : normes.md (LCEN + RGPD + art. 82 s'appliquent ; EAA/RGAA obligatoire non ; WCAG 2.2 AA cible volontaire). Anonymat total impossible : nom sur /mentions-legales seulement. 4 écarts prototype transmis au DA (aria SplitText, nom du bouton pause, focus sous header, preload 404).
 - DA v2 terminé : émeraude #0A5C40 / or plein #F4C24F / ivoire #FFFCF2, une seule famille Instrument Sans (OFL), 0 violation axe-core, 4 écarts normes corrigés. Captures relues par le Chef. Artifact republié (v2).
+- 23:05 Retour de Hugo : « essaye d'avoir une vraie DA, recherche sur internet palettes et typos qui vont ensemble ; j'aime le logo, le fil ». Vague 3 : directeur-artistique-web (recherche + 3 pistes de DA comparées sur une planche), puis application de la piste choisie.
+- Pistes DA terminées : A Lingerie d'hôtel (forêt #174A37 + laiton #AB8C52, Proza Libre + Cormorant Garamond), B Nuit d'hôtel (nuit #121B2E + or champagne, Instrument Serif + Sans), C Lin et argile (argile #8C4127 + ocre, Alegreya superfamille). Recommandation A. Planche publiée https://claude.ai/artifact/425sopFx314eQEiYhaifYA. Choix demandé à Hugo.
 
 ## Résultat livré
 Dossier /mnt/project-files/circularrouter/ : cahier-des-charges.md, references.md, plan-technique.md, direction-artistique.md, prototype/. En attente de hugo : validation DA (fil d'or, polices), création du dépôt, décisions propriétaire (alias contact@, mentions légales, hébergement Netlify, formulaire Resend).
@@ -42,5 +44,5 @@ Dossier /mnt/project-files/circularrouter/ : cahier-des-charges.md, references.m
 - Le plan estime ~20 agents sur 5 phases (au-delà de 1-5) : à faire valider par Hugo avant la phase 0.
 
 ## Compteurs
-- Agents lancés : 6
+- Agents lancés : 7
 - Relances : 2
