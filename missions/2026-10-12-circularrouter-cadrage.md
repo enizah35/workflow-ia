@@ -34,6 +34,8 @@
 - Pistes DA terminées : A Lingerie d'hôtel (forêt #174A37 + laiton #AB8C52, Proza Libre + Cormorant Garamond), B Nuit d'hôtel (nuit #121B2E + or champagne, Instrument Serif + Sans), C Lin et argile (argile #8C4127 + ocre, Alegreya superfamille). Recommandation A. Planche publiée https://claude.ai/artifact/425sopFx314eQEiYhaifYA. Choix demandé à Hugo.
 - 23:19 Hugo choisit la piste A (carte de décision). Agent lancé pour l'appliquer au prototype (v3).
 - Piste A appliquée (v3) : Proza Libre + Cormorant italique auto-hébergées (52 Ko), 60/30/10, 0 violation axe, contraste min 5,29:1. Captures relues par le Chef, artifact republié (v3). En attente : dépôt GitHub pour lancer la phase 0.
+- 23:34 Hugo : « animations vraiment qualitatives, discrètes et soft, un peu comme Apple ». Nouvelle fiche motion-designer-web lancée sur motion.js.
+- Motion v4 terminé : ressort sans rebond (cubic-bezier(.25,.26,.12,1)), 12-24 px, 0,6-1,8 s ; supprimés rideau, couture en escalier, navettes, orbite, parallaxe 80 px, aimant. 0 violation axe, ~1 % d'images perdues. Planche-contact relue par le Chef, artifact republié (v4).
 
 ## Résultat livré
 Dossier /mnt/project-files/circularrouter/ : cahier-des-charges.md, references.md, plan-technique.md, direction-artistique.md, prototype/. En attente de hugo : validation DA (fil d'or, polices), création du dépôt, décisions propriétaire (alias contact@, mentions légales, hébergement Netlify, formulaire Resend).
@@ -47,5 +49,5 @@ Dossier /mnt/project-files/circularrouter/ : cahier-des-charges.md, references.m
 - Le plan estime ~20 agents sur 5 phases (au-delà de 1-5) : à faire valider par Hugo avant la phase 0.
 
 ## Compteurs
-- Agents lancés : 8
+- Agents lancés : 9
 - Relances : 2
