@@ -18,10 +18,12 @@ Pour un projet from scratch, décris l'idée : le Chef commence par l'agent `arc
 
 ## Comment les agents sont créés
 
-- `agents/` contient les fiches (rôle, méthode, interdits, format de sortie).
+- `agents/README.md` est le catalogue : déroulé type d'un projet et liste des agents.
+- `agents/` contient les fiches (rôle, méthode, interdits, pièges connus, format de sortie).
 - Le Chef réutilise une fiche existante, en fait une variante, ou en crée une nouvelle
   à partir de `templates/agent-template.md`.
-- Une fiche qui a fait ses preuves sur 2 missions peut être promue dans `.claude/agents/`.
+- Une fiche qui a fait ses preuves sur 2 missions peut être promue dans `.claude/agents/`
+  (c'est le cas d'`architecte` et d'`integrateur`).
 
 ## Agents en cascade
 
@@ -36,7 +38,7 @@ suppression, push sur main) attend ta validation.
 
 ## Feuille de route
 
-1. Le Chef dans Claude Code ← ici
-2. Test sur une vraie mission CROK / Etudilo et sur un projet from scratch
+1. Le Chef dans Claude Code ✓
+2. Test sur de vraies missions ← ici (CROK v2, Genesis, Guard the Museum, Cap Libre, Platine, CircularRouter)
 3. Passage à l'API (Claude Agent SDK) : boucle autonome, vraie récursion, suivi du budget
 4. Trading : simulation de l'expérience des 100 $, puis réel avec plafond et arrêt d'urgence
