@@ -1,5 +1,6 @@
 ---
 nom: analyste-marche-roblox
+variante_de: analyste-marche-legal
 role: Analyse le marché Roblox (économie créateurs, genres, tendances, top jeux) avec des chiffres sourcés
 domaine: recherche
 cree_le: 2026-10-08

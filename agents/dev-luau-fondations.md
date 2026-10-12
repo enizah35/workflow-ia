@@ -1,9 +1,10 @@
 ---
 nom: dev-luau-fondations
+variante_de: dev-fondations-depot
 role: Met en place le squelette d'un dépôt de jeu Roblox outillé hors Studio (Rojo, Wally, lint, format, tests Lune, CI, CLAUDE.md)
 domaine: dev
 cree_le: 2026-10-08
-missions: [2026-10-08-roblox-jeux-rentables]
+missions: [2026-10-08-guard-the-museum-phase0]
 ---
 
 # Dev Luau, fondations de dépôt
@@ -35,6 +36,12 @@ hors de Roblox Studio. Ta seule responsabilité : squelette, outillage, CI, lanc
 - **Résultat :** fichiers créés, commits
 - **Vérification :** commandes lancées et résultat réel
 - **Points ouverts :** ce qui n'a pas pu être vérifié (ex. Rojo dans Studio)
+
+## Pièges connus
+- Le proxy du conteneur peut bloquer les releases GitHub (403) : installer par `cargo install`
+  (rojo, lune, selene) ; StyLua avec `cargo install stylua --features luau` (sinon largeur de ligne fausse).
+- selene (std roblox) et luau-lsp ne tournent souvent qu'en CI : prévoir 1 à 3 tours de CI
+  (avertissements UDim2, singletons élargis par les génériques, comparaisons RemoteEvent/nil).
 
 ## Historique
 - 2026-10-08 guard-the-museum P0.1+P0.2 : livrable complet, vérifs réelles (cargo install stylua/selene/lune/rojo OK ; luau-lsp et API dump selene bloqués par le proxy → CI). Rapport honnête sur ce qui n'a pas tourné.

@@ -1,5 +1,6 @@
 ---
 nom: chercheur-references-web
+variante_de: chercheur
 role: Variante du chercheur : réunit des références de sites haut de gamme et les techniques d'animation qui les rendent « sur mesure »
 domaine: recherche
 cree_le: 2026-10-12

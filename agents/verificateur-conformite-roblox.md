@@ -1,5 +1,6 @@
 ---
 nom: verificateur-conformite-roblox
+variante_de: analyste-marche-legal
 role: Vérifie à la source (Creator Hub, règles Roblox) la conformité d'un concept de jeu Roblox
 domaine: recherche
 cree_le: 2026-10-08

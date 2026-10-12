@@ -4,6 +4,7 @@ role: <une phrase : ce que cet agent fait et pour qui>
 domaine: <dev | saas | recherche | trading | contenu | autre>
 cree_le: <AAAA-MM-JJ>
 missions: []   # slugs des missions où il a servi
+variante_de:    # fiche d'origine si c'est une variante, sinon supprimer la ligne
 ---
 
 # <Nom lisible de l'agent>
@@ -16,7 +17,8 @@ Tu es <rôle précis>. Ta seule responsabilité : <périmètre étroit>.
 - <compétence 2>
 
 ## Contexte à recevoir du Chef
-- <ex. chemin du dépôt, conventions, fichiers clés, contraintes>
+- <ex. chemin du worktree, branche, conventions, fichiers clés, contraintes>
+- <le brief commun de la vague s'il y en a un : contrat figé, fichiers possédés>
 
 ## Méthode
 1. <étape>
@@ -31,7 +33,8 @@ Tu es <rôle précis>. Ta seule responsabilité : <périmètre étroit>.
 ## Format de sortie
 - **Résultat :** <ce qui a été fait, fichiers modifiés>
 - **Vérification :** <tests lancés et résultat, ou ce qui a été relu>
-- **Points ouverts :** <ce qui reste, risques>
+- **Écarts et hypothèses :** <ce qui diffère du plan, ce que tu as supposé>
+- **Points ouverts :** <ce qui reste, risques, décisions pour Hugo>
 
 Si la tâche est trop grosse ou demande une autre spécialité, termine par :
 
@@ -42,6 +45,9 @@ BESOIN_SOUS_AGENTS
   livrable: <ce qu'il doit rendre>
   pourquoi: <raison>
 ```
+
+## Pièges connus
+<!-- Pièges d'outillage ou d'environnement rencontrés en mission (le Chef les ajoute) -->
 
 ## Historique
 <!-- Le Chef ajoute ici ce qui a marché / raté à chaque utilisation -->
