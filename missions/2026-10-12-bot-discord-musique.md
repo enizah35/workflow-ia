@@ -21,6 +21,7 @@
 
 ## Journal
 - 2026-10-12 : chercheur lancé (rapport attendu dans /mnt/project-files/discord-music/recherche-marche-et-legal.md). Questions fondateur posées à hugo.
+- 2026-10-12 : réponses de hugo reçues → /mnt/project-files/discord-music/reponses-fondateur.md (privé d'abord, FR+EN, gratuit ; priorités : fiabilité, playlists, aléatoire par style, paroles synchro, recos, dashboard).
 
 ## Résultat livré
 
