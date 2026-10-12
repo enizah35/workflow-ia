@@ -32,11 +32,14 @@
 - DA v2 terminé : émeraude #0A5C40 / or plein #F4C24F / ivoire #FFFCF2, une seule famille Instrument Sans (OFL), 0 violation axe-core, 4 écarts normes corrigés. Captures relues par le Chef. Artifact republié (v2).
 - 23:05 Retour de Hugo : « essaye d'avoir une vraie DA, recherche sur internet palettes et typos qui vont ensemble ; j'aime le logo, le fil ». Vague 3 : directeur-artistique-web (recherche + 3 pistes de DA comparées sur une planche), puis application de la piste choisie.
 - Pistes DA terminées : A Lingerie d'hôtel (forêt #174A37 + laiton #AB8C52, Proza Libre + Cormorant Garamond), B Nuit d'hôtel (nuit #121B2E + or champagne, Instrument Serif + Sans), C Lin et argile (argile #8C4127 + ocre, Alegreya superfamille). Recommandation A. Planche publiée https://claude.ai/artifact/425sopFx314eQEiYhaifYA. Choix demandé à Hugo.
+- 23:19 Hugo choisit la piste A (carte de décision). Agent lancé pour l'appliquer au prototype (v3).
+- Piste A appliquée (v3) : Proza Libre + Cormorant italique auto-hébergées (52 Ko), 60/30/10, 0 violation axe, contraste min 5,29:1. Captures relues par le Chef, artifact republié (v3). En attente : dépôt GitHub pour lancer la phase 0.
 
 ## Résultat livré
 Dossier /mnt/project-files/circularrouter/ : cahier-des-charges.md, references.md, plan-technique.md, direction-artistique.md, prototype/. En attente de hugo : validation DA (fil d'or, polices), création du dépôt, décisions propriétaire (alias contact@, mentions légales, hébergement Netlify, formulaire Resend).
 
 ## Leçons
+- Montrer 3 pistes sourcées sur une planche, puis faire choisir par carte de décision, a débloqué la DA en un aller-retour après deux retours négatifs : à faire dès le départ sur les prochains sites.
 - Un redémarrage du conteneur tue les agents en arrière-plan : seuls ceux avec transcript reprennent. Pour un agent long, lui faire écrire tôt ses fichiers pour qu'un remplaçant reprenne l'état.
 - Brancher les écarts de l'auditeur directement dans la passe du DA a évité une vague de plus.
 - Exiger des captures Playwright relues par l'agent DA a produit 4 itérations utiles (visuel vide, lettre rognée, débordements) : à garder dans la fiche.
@@ -44,5 +47,5 @@ Dossier /mnt/project-files/circularrouter/ : cahier-des-charges.md, references.m
 - Le plan estime ~20 agents sur 5 phases (au-delà de 1-5) : à faire valider par Hugo avant la phase 0.
 
 ## Compteurs
-- Agents lancés : 7
+- Agents lancés : 8
 - Relances : 2
