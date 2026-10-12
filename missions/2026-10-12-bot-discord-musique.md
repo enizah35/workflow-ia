@@ -15,19 +15,20 @@
 |---|-------|-------|-------|--------|
 | 1 | Recherche concurrents, ToS, sources audio, briques techniques | chercheur | existante | livré |
 | 2 | Interview fondateur (questions) | Chef | — | en attente de hugo |
-| 3 | Vision produit | product-vision | existante | en cours |
-| 4 | Spec + stack + plan technique | architecte | existante | à faire |
+| 3 | Vision produit | product-vision | existante | livré |
+| 4 | Spec + stack + plan technique | architecte | existante | livré, attend validation |
 | 5 | Dev par phases | dev-feature + integrateur | existantes | après création du dépôt |
 
 ## Journal
 - 2026-10-12 : chercheur lancé (rapport attendu dans /mnt/project-files/discord-music/recherche-marche-et-legal.md). Questions fondateur posées à hugo.
 - 2026-10-12 : réponses de hugo reçues → /mnt/project-files/discord-music/reponses-fondateur.md (privé d'abord, FR+EN, gratuit ; priorités : fiabilité, playlists, aléatoire par style, paroles synchro, recos, dashboard).
 - 2026-10-12 : recherche livrée (/mnt/project-files/discord-music/recherche-marche-et-legal.md). Agent product-vision lancé. hugo choisit les sources « Hybride » (métadonnées Spotify/Deezer + lecture YouTube, privé uniquement, source isolée).
+- 2026-10-12 : vision livrée (vision.md, noms Platine/Refrain/Ambiance, 7 questions avec défauts). Architecte lancé sans attendre les réponses (défauts appliqués, centralisés dans guild_settings). Plan livré : TS + discord.js 14 + Lavalink 4.2.2 (DAVE) + Postgres/Drizzle, catalogue Deezer principal, 4 phases MVP (4+7+6+5 tâches) + V2. Copie dans docs/discord-music/. En attente : go de hugo + création du dépôt.
 
 ## Résultat livré
 
 ## Leçons
 
 ## Compteurs
-- Agents lancés : 2
+- Agents lancés : 3
 - Relances : 0
