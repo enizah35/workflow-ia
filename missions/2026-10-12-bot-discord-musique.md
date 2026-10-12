@@ -17,18 +17,19 @@
 | 2 | Interview fondateur (questions) | Chef | — | en attente de hugo |
 | 3 | Vision produit | product-vision | existante | livré |
 | 4 | Spec + stack + plan technique | architecte | existante | livré, attend validation |
-| 5 | Dev par phases | dev-feature + integrateur | existantes | après création du dépôt |
+| 5 | Phase 0 socle (dépôt enizah35/Platine) : 0.1 Chef, 0.2 DevOps, 0.3 domaine, 0.4 bot minimal, intégration Chef | fiches ad hoc (profils du plan) | nouvelles, dans le prompt | en cours |
 
 ## Journal
 - 2026-10-12 : chercheur lancé (rapport attendu dans /mnt/project-files/discord-music/recherche-marche-et-legal.md). Questions fondateur posées à hugo.
 - 2026-10-12 : réponses de hugo reçues → /mnt/project-files/discord-music/reponses-fondateur.md (privé d'abord, FR+EN, gratuit ; priorités : fiabilité, playlists, aléatoire par style, paroles synchro, recos, dashboard).
 - 2026-10-12 : recherche livrée (/mnt/project-files/discord-music/recherche-marche-et-legal.md). Agent product-vision lancé. hugo choisit les sources « Hybride » (métadonnées Spotify/Deezer + lecture YouTube, privé uniquement, source isolée).
 - 2026-10-12 : vision livrée (vision.md, noms Platine/Refrain/Ambiance, 7 questions avec défauts). Architecte lancé sans attendre les réponses (défauts appliqués, centralisés dans guild_settings). Plan livré : TS + discord.js 14 + Lavalink 4.2.2 (DAVE) + Postgres/Drizzle, catalogue Deezer principal, 4 phases MVP (4+7+6+5 tâches) + V2. Copie dans docs/discord-music/. En attente : go de hugo + création du dépôt.
+- 2026-10-12 : go de hugo (« commence »), dépôt enizah35/Platine créé par hugo (vide). Commit d'initialisation (README) poussé sur main pour servir de base aux PR. 0.1 échafaudage fait par le Chef (tâche simple) sur agent/phase0-integration. Vague B lancée en worktrees : 0.2 conteneurs + ADR client Lavalink, 0.3 contrats + fakes + schéma. Docker disponible dans le conteneur cloud (dockerd lancé à la main).
 
 ## Résultat livré
 
 ## Leçons
 
 ## Compteurs
-- Agents lancés : 3
+- Agents lancés : 5
 - Relances : 0
