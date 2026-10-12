@@ -2,6 +2,7 @@
 nom: <kebab-case, ex. dev-react-native-ecran>
 role: <une phrase : ce que cet agent fait et pour qui>
 domaine: <dev | saas | recherche | trading | contenu | autre>
+modele: <opus | sonnet | haiku>   # opus seulement pour la conception
 cree_le: <AAAA-MM-JJ>
 missions: []   # slugs des missions où il a servi
 variante_de:    # fiche d'origine si c'est une variante, sinon supprimer la ligne
@@ -31,6 +32,7 @@ Tu es <rôle précis>. Ta seule responsabilité : <périmètre étroit>.
 - Ne sors pas de ton périmètre : si autre chose est nécessaire, signale-le.
 
 ## Format de sortie
+30 lignes maximum ; le détail va dans un fichier dont tu donnes le chemin.
 - **Résultat :** <ce qui a été fait, fichiers modifiés>
 - **Vérification :** <tests lancés et résultat, ou ce qui a été relu>
 - **Écarts et hypothèses :** <ce qui diffère du plan, ce que tu as supposé>

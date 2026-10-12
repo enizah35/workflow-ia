@@ -17,32 +17,35 @@ créée, promue ou supprimée.
 
 ## Généralistes
 
-| Agent | Où | Rôle | Missions réussies |
-|-------|----|------|-------------------|
-| architecte | `.claude/agents/` | Plan technique, contrat figé, phases | 5 |
-| integrateur | `.claude/agents/` | Fusion des branches parallèles, une PR par phase | 3 |
-| dev-feature | `agents/` | Une tâche du plan, tests compris, dans son worktree | 4 |
-| dev-fondations-depot | `agents/` | Squelette, outillage, CI gratuite, CLAUDE.md du dépôt | nouvelle (tiré de 4 phases 0) |
-| product-vision | `agents/` | Vision produit, MVP, questions au fondateur | 2 |
-| chercheur | `agents/` | Question précise, sources datées | 2 |
-| analyste-marche-legal | `agents/` | Concurrents, angle libre, CGU, licences, RGPD | nouvelle (tiré de 3 études) |
-| testeur-qa | `agents/` | Parcours réels, avant/après, captures, guide de test | nouvelle |
-| relecteur | `agents/` | Revue critique avant livraison | jamais lancé |
+| Agent | Où | Rôle | Missions réussies | Modèle |
+|-------|----|------|-------------------|--------|
+| architecte | `.claude/agents/` | Plan technique, contrat figé, phases | 5 | opus |
+| integrateur | `.claude/agents/` | Fusion des branches parallèles, une PR par phase | 3 | sonnet |
+| dev-feature | `agents/` | Une tâche du plan, tests compris, dans son worktree | 4 | sonnet |
+| dev-fondations-depot | `agents/` | Squelette, outillage, CI gratuite, CLAUDE.md du dépôt | nouvelle (tiré de 4 phases 0) | sonnet |
+| product-vision | `agents/` | Vision produit, MVP, questions au fondateur | 2 | opus |
+| chercheur | `agents/` | Question précise, sources datées | 2 | sonnet |
+| analyste-marche-legal | `agents/` | Concurrents, angle libre, CGU, licences, RGPD | nouvelle (tiré de 3 études) | sonnet |
+| testeur-qa | `agents/` | Parcours réels, avant/après, captures, guide de test | nouvelle | sonnet |
+| relecteur | `agents/` | Revue critique avant livraison | jamais lancé | sonnet |
 
 ## Spécialistes
 
-| Agent | Variante de | Domaine | Missions |
-|-------|-------------|---------|----------|
-| analyste-marche-roblox | analyste-marche-legal | Roblox : économie, genres, tendances | 1 (2 instances) |
-| verificateur-conformite-roblox | analyste-marche-legal | Roblox : maturité, âge, monétisation | 1 |
-| evaluateur-concepts-jeu | — | Générer et noter des concepts de jeu | 1 |
-| architecte-luau-roblox | architecte | Plan technique d'un jeu Roblox | 1 |
-| dev-luau-fondations | dev-fondations-depot | Dépôt Roblox outillé (Rojo, Lune, CI) | 1 |
-| dev-luau-prototype | dev-feature | Prototype jouable d'une boucle Roblox | 1 |
-| game-designer-systemes | — | Système de jeu chiffré (sortie, spawns, progression) | nouvelle (tiré de Cap Libre) |
-| dev-godot-gdscript | dev-feature | Mécanique Godot sur copie du dossier de Hugo | nouvelle (tiré de Cap Libre) |
-| chercheur-references-web | chercheur | Références de sites haut de gamme et techniques d'animation | 1 |
-| directeur-artistique-web | — | DA + motion design + section prototype | 1 |
+| Agent | Variante de | Domaine | Missions | Modèle |
+|-------|-------------|---------|----------|--------|
+| analyste-marche-roblox | analyste-marche-legal | Roblox : économie, genres, tendances | 1 (2 instances) | sonnet |
+| verificateur-conformite-roblox | analyste-marche-legal | Roblox : maturité, âge, monétisation | 1 | sonnet |
+| evaluateur-concepts-jeu | — | Générer et noter des concepts de jeu | 1 | opus |
+| architecte-luau-roblox | architecte | Plan technique d'un jeu Roblox | 1 | opus |
+| dev-luau-fondations | dev-fondations-depot | Dépôt Roblox outillé (Rojo, Lune, CI) | 1 | sonnet |
+| dev-luau-prototype | dev-feature | Prototype jouable d'une boucle Roblox | 1 | sonnet |
+| game-designer-systemes | — | Système de jeu chiffré (sortie, spawns, progression) | nouvelle (tiré de Cap Libre) | opus |
+| dev-godot-gdscript | dev-feature | Mécanique Godot sur copie du dossier de Hugo | nouvelle (tiré de Cap Libre) | sonnet |
+| chercheur-references-web | chercheur | Références de sites haut de gamme et techniques d'animation | 1 | sonnet |
+| directeur-artistique-web | — | DA + motion design + section prototype | 1 | opus |
+
+Modèle : valeur à passer au paramètre `model` de l'outil Agent (voir « Économie » dans CLAUDE.md).
+Opus seulement quand la qualité de conception décide de tout le reste.
 
 ## Promotion
 

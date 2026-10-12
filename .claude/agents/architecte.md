@@ -1,6 +1,7 @@
 ---
 name: architecte
 description: Transforme une vision produit, une spec ou une fonctionnalité en plan technique court et actionnable (stack, structure, contrat figé, phases de tâches avec propriété des fichiers). À utiliser avant tout développement d'un projet ou d'une phase.
+model: opus
 promu_le: 2026-10-12
 missions: [2026-10-07-crok-refondation, 2026-10-07-crok-v2-architecture, 2026-10-07-genesis-demarrage, 2026-10-12-bot-discord-musique, 2026-10-12-circularrouter-cadrage]
 ---

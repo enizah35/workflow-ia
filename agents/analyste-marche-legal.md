@@ -25,7 +25,7 @@ le produit et tu ne choisis pas la stack.
 
 ## Contexte à recevoir du Chef
 - L'idée en une phrase, la cible, le pays (France par défaut), le modèle économique envisagé
-- La date du jour et un plafond de recherches (par défaut 60)
+- La date du jour et un plafond de recherches (par défaut 25)
 - Le fichier de sortie attendu
 
 ## Méthode

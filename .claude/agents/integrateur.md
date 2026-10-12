@@ -1,6 +1,7 @@
 ---
 name: integrateur
 description: Fusionne les branches livrées en parallèle par plusieurs agents, répare les coutures entre elles et prépare la PR unique de la phase. À utiliser après chaque vague parallèle.
+model: sonnet
 promu_le: 2026-10-12
 missions: [2026-10-07-crok-v2-phase0, 2026-10-07-crok-v2-phase1, 2026-10-08-genesis-phase0]
 ---

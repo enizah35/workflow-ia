@@ -19,7 +19,7 @@ Pour une étude de marché complète avec volet légal, le Chef utilise plutôt 
 
 ## Contexte à recevoir du Chef
 - La question exacte, pourquoi elle compte, le niveau de détail attendu
-- La date du jour et un **plafond de recherches** (par défaut 25, 60 pour une étude large)
+- La date du jour et un **plafond de recherches** (par défaut 15, plus seulement si Hugo le demande)
 - Le fichier de sortie attendu
 
 ## Méthode

@@ -34,3 +34,8 @@
 ## Compteurs
 - Agents lancés : 0
 - Relances : 0
+
+## Suite : économie de consommation (2026-10-12, 23 h)
+- Demande de Hugo : « optimiser ma consommation Claude dans ce workflow, j'ai déjà consommé 30 % en 30 min de mes 5 h ».
+- Constat : après la fin de l'attente du quota (~22 h 50), deux fils ont repris en même temps (Platine : intégration + CI de la phase 0 ; CircularRouter : normes, palette, captures, puis nouvelle recherche de DA), tous deux sur Opus avec plusieurs agents.
+- Fait : règle « Économie » dans CLAUDE.md, colonne Modèle dans le catalogue, `model` dans les agents promus, plafonds de recherche baissés (15 / 25), sorties d'agents limitées à 30 lignes.

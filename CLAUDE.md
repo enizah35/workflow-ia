@@ -78,6 +78,23 @@ qui la réaliseront, les lancer, contrôler leur travail et livrer le résultat.
   les pièges déjà connus sont dans les fiches (« Pièges connus ») et les journaux.
 - **Budget.** Note dans le journal le nombre d'agents lancés. Si une mission dépasse ce qui
   était prévu, arrête-toi et demande avant de continuer.
+- **Économie (quota Claude de Hugo).** Chaque agent repart de zéro et relit son contexte : c'est
+  le premier poste de dépense. Donc :
+  - **Modèle par agent** : passe le paramètre `model` de l'outil Agent selon la colonne « Modèle »
+    du catalogue. Opus seulement pour les rôles de conception (architecte, DA, game design) ;
+    Sonnet pour le dev, l'intégration, les tests et la recherche ; Haiku pour les tâches mécaniques
+    (résumer, reformater, vérifier une liste).
+  - **Moins d'agents** : regroupe les tâches séquentielles dans un même agent ; pas de `relecteur`
+    ni de `testeur-qa` sans enjeu réel ; une tâche de moins de ~15 min se fait sans agent.
+  - **Briefs courts** : donne des chemins de fichiers, pas leur contenu ; un seul brief commun
+    en fichier plutôt que recopié dans chaque prompt.
+  - **Sorties courtes** : chaque agent rend 30 lignes maximum ; le détail va dans un fichier.
+    Les commandes longues (tests, builds) sont filtrées (`tail`, `grep`) avant d'être lues.
+  - **Recherche plafonnée** : 15 recherches web par défaut, à relever seulement si Hugo le demande.
+  - **Itérations visuelles** : 2 tours de captures maximum avant de montrer à Hugo.
+  - **Un seul projet actif à la fois** : deux fils qui travaillent en même temps consomment en
+    même temps. Si un autre fil tourne, termine l'étape en cours et propose d'attendre.
+  - **Pas de surveillance active** : la CI et les PR réveillent le fil, ne les interroge pas en boucle.
 - **Honnêteté.** Si un agent échoue ou si un test ne passe pas, dis-le tel quel, y compris les
   tests qui échouaient déjà avant et ceux qui n'ont pas pu tourner.
 
