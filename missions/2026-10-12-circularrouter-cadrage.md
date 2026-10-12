@@ -26,15 +26,21 @@
 - Chercheur terminé : references.md (15 réf., WebFetch texte seulement, aucun rendu vu ; site actuel lisible via WebFetch). Leçon : demander des captures navigateur quand le rendu compte.
 - Directeur artistique lancé (DA + prototype ouverture + schéma, captures Playwright exigées).
 - DA terminé : concept « le fil conducteur », Schibsted Grotesk + Newsreader Italic (OFL), prototype ouverture + schéma, 8 captures, 4 itérations. Contrôle du Chef : captures 1440/390 relues, cohérentes. Prototype publié en artifact https://claude.ai/artifact/2xDE5bHyNcNX96groQEqau.
+- 18:37 Retour de Hugo : « regarder les normes pour les sites, couleurs trop ternes, trop de polices différentes ». Vague 2 : auditeur-normes-web (nouvelle fiche) + relance directeur-artistique-web (palette plus vive, une seule famille de police).
+- Redémarrage du conteneur : auditeur repris depuis son transcript ; DA perdu, recréé (directeur-artistique-v2) en reprenant l'état partiel (tokens + Instrument Sans).
+- Auditeur terminé : normes.md (LCEN + RGPD + art. 82 s'appliquent ; EAA/RGAA obligatoire non ; WCAG 2.2 AA cible volontaire). Anonymat total impossible : nom sur /mentions-legales seulement. 4 écarts prototype transmis au DA (aria SplitText, nom du bouton pause, focus sous header, preload 404).
+- DA v2 terminé : émeraude #0A5C40 / or plein #F4C24F / ivoire #FFFCF2, une seule famille Instrument Sans (OFL), 0 violation axe-core, 4 écarts normes corrigés. Captures relues par le Chef. Artifact republié (v2).
 
 ## Résultat livré
 Dossier /mnt/project-files/circularrouter/ : cahier-des-charges.md, references.md, plan-technique.md, direction-artistique.md, prototype/. En attente de hugo : validation DA (fil d'or, polices), création du dépôt, décisions propriétaire (alias contact@, mentions légales, hébergement Netlify, formulaire Resend).
 
 ## Leçons
+- Un redémarrage du conteneur tue les agents en arrière-plan : seuls ceux avec transcript reprennent. Pour un agent long, lui faire écrire tôt ses fichiers pour qu'un remplaçant reprenne l'état.
+- Brancher les écarts de l'auditeur directement dans la passe du DA a évité une vague de plus.
 - Exiger des captures Playwright relues par l'agent DA a produit 4 itérations utiles (visuel vide, lettre rognée, débordements) : à garder dans la fiche.
 - Le chercheur sans navigateur ne voit pas le rendu : pour une recherche visuelle, lui faire prendre des captures.
 - Le plan estime ~20 agents sur 5 phases (au-delà de 1-5) : à faire valider par Hugo avant la phase 0.
 
 ## Compteurs
-- Agents lancés : 3
-- Relances : 0
+- Agents lancés : 6
+- Relances : 2

@@ -38,4 +38,5 @@ artistique précise et défendable (pas un moodboard flou), plus une section pro
 - **Points ouverts :** ce que Hugo ou le client doit trancher
 
 ## Historique
+- 2026-10-12 v2 : retour Hugo « couleurs ternes, trop de polices » → privilégier des aplats francs et UNE famille de police par défaut.
 - 2026-10-12 circularrouter-cadrage : captures Playwright imposées + 4 itérations visuelles = bon résultat. Garder l exigence de captures relues.
