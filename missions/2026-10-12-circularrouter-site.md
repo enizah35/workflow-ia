@@ -13,19 +13,21 @@
 ## Découpage
 | # | Tâche | Agent | Fiche | Statut |
 |---|-------|-------|-------|--------|
-| 0 | Socle Astro, tokens/polices, layout, header, noyau motion, toutes sections en HTML, harnais de tests | dev-feature (variante Astro socle) | variante | en cours |
-| 1a | Hero + Schéma (motion v4) | motion-designer-web | existante | à venir |
-| 1b | Approche, Économie circulaire, Étapes (onglets) | dev-feature | existante | à venir |
-| 1c | Repreneurs, FAQ, Footer, Contact (UI + fonction) + pages légales | dev-feature | existante | à venir |
+| 0 | Socle Astro, tokens/polices, layout, header, noyau motion, toutes sections en HTML, harnais de tests | dev-feature (variante Astro socle) | variante | fait (8503c1a) |
+| 1a | Hero + Schéma (motion v4) | motion-designer-web | existante | en cours |
+| 1b | Approche, Économie circulaire, Étapes (onglets) | dev-feature | existante | en cours |
+| 1c | Repreneurs, FAQ, Footer, Contact (UI + fonction) + pages légales | dev-feature | existante | en cours |
 | 2 | Intégration, coordination motion, tests, aperçu | integrateur | existante | à venir |
 
 ## Journal
 - 23:58 Vague 0 lancée : socle (agent/socle). Brief commun écrit avant la vague.
+- Socle terminé : Astro 7.3.8, main 8503c1a, build/check/vitest 5/5/e2e 30/30 verts. API registerMotion figée et ajoutée au brief. Ordre des sections et textes de synthèse à valider par Hugo.
+- Vague 1 lancée en parallèle : 3 worktrees (cr-ouverture, cr-parcours, cr-contact), ports E2E distincts, budget mouvement commun (2 effets liés au défilement max).
 
 ## Résultat livré
 
 ## Leçons
 
 ## Compteurs
-- Agents lancés : 1
+- Agents lancés : 4
 - Relances : 0
