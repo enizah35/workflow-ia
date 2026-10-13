@@ -17,7 +17,7 @@
 | 1a | Hero + Schéma (motion v4) | motion-designer-web | existante | fait (3ea5b6e) |
 | 1b | Approche, Économie circulaire, Étapes (onglets) | dev-feature | existante | fait (da419e0) |
 | 1c | Repreneurs, FAQ, Footer, Contact (UI + fonction) + pages légales | dev-feature | existante | fait (3ed503f) |
-| 2 | Intégration, coordination motion, tests, aperçu | integrateur | existante | en cours |
+| 2 | Intégration, coordination motion, tests, aperçu | integrateur | existante | fait (db56eae) |
 
 ## Journal
 - 23:58 Vague 0 lancée : socle (agent/socle). Brief commun écrit avant la vague.
@@ -27,10 +27,15 @@
 - 1a ouverture terminé : 168c242 + 3ea5b6e, e2e 49/49 dont test budget « exactement 2 effets liés au défilement ». Ouvert : à 320 px la 2e entrée déborde du 1er écran.
 - 1c contact terminé : 5 commits, vitest 37/37, e2e 55/55, CSP par empreintes. A touché content.config.ts (hors liste) : à reprendre par l'intégrateur. Variables Netlify listées.
 - Intégrateur lancé (worktree cr-integration, agent/integration).
+- Intégrateur terminé : 3 merges sans conflit, main db56eae, vitest 37/37, e2e 93/93, axe 0, CSP vérifiée. Planche de défilement relue par le Chef. Aperçu publié https://claude.ai/artifact/BX1JegEcrpisgmppywArbh (chemins rendus relatifs, _astro renommé assets). Bundle git dans /mnt/project-files/circularrouter/circularrouter.bundle. Dépôt GitHub toujours absent (add_repo : pas d'accès).
 
 ## Résultat livré
+Site complet sur main db56eae (local + bundle). En attente : dépôt GitHub par Hugo, comptes Netlify/Resend/Turnstile, validations propriétaire (textes, mentions légales, contact@).
 
 ## Leçons
+- Brief commun écrit sur disque + API motion figée après le socle : 3 agents parallèles sans aucun conflit de merge.
+- Test « budget » (exactement 2 effets liés au défilement) a verrouillé la consigne de discrétion entre agents : à réutiliser.
+- Agents de section très longs (~3h40) : prévoir des tâches plus petites ou accepter la durée.
 
 ## Compteurs
 - Agents lancés : 5

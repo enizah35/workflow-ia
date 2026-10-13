@@ -39,4 +39,5 @@ Tu n'ajoutes aucune fonctionnalité.
 - **Points ouverts :** ce qui reste à décider par un humain
 
 ## Historique
+- 2026-10-13 circularrouter : 3 merges sans conflit, 93 e2e verts. 3e mission réussie.
 - 2026-10-07 crok-v2-phase1 : 3 fusions + extension de contrat, ci et pgTAP verts, e2e réel. 2e mission réussie : promouvable.
